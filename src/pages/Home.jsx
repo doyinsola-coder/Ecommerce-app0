@@ -9,19 +9,19 @@ const LandingPage = () => {
     {
       title: "Discover Fresh Finds",
       subtitle: "Premium Quality Products at Unbeatable Prices",
-      image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&h=600&fit=crop",
+      image: "/hero1.jpg",
       cta: "Shop Now"
     },
     {
       title: "New Arrivals Daily",
       subtitle: "Stay Ahead with the Latest Trends",
-      image: "https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=800&h=600&fit=crop",
+      image: "/hero2.jpg",
       cta: "Explore"
     },
     {
       title: "Free Shipping",
       subtitle: "On Orders Over $50 - Limited Time Offer",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop",
+      image: "/hero3.jpg",
       cta: "Get Started"
     }
   ];
@@ -30,16 +30,16 @@ const LandingPage = () => {
     { name: "Electronics", image: "https://images.unsplash.com/photo-1498049794561-7780e7231661?w=300&h=200&fit=crop", count: "2.5k+" },
     { name: "Fashion", image: "https://images.unsplash.com/photo-1445205170230-053b83016050?w=300&h=200&fit=crop", count: "1.8k+" },
     { name: "Home & Garden", image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=300&h=200&fit=crop", count: "3.2k+" },
-    { name: "Sports", image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop", count: "950+" },
+    { name: "Sports", image: "/sports.jpg", count: "950+" },
     { name: "Books", image: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=300&h=200&fit=crop", count: "5.1k+" },
     { name: "Health", image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=300&h=200&fit=crop", count: "1.3k+" }
   ];
 
   const featuredProducts = [
-    { id: 1, name: "Wireless Headphones", price: "$79.99", rating: 4.8, image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=300&h=300&fit=crop", badge: "Best Seller" },
-    { id: 2, name: "Smart Watch", price: "$199.99", rating: 4.9, image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=300&h=300&fit=crop", badge: "New" },
-    { id: 3, name: "Coffee Maker", price: "$89.99", rating: 4.7, image: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=300&h=300&fit=crop", badge: "Hot Deal" },
-    { id: 4, name: "Running Shoes", price: "$129.99", rating: 4.6, image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=300&h=300&fit=crop", badge: "Limited" }
+    { id: 1, name: "Wireless Headphones", price: "#15,000", rating: 4.8, image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=300&h=300&fit=crop", badge: "Best Seller" },
+    { id: 2, name: "Smart Watch", price: "#35,000", rating: 4.9, image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=300&h=300&fit=crop", badge: "New" },
+    { id: 3, name: "Coffee Maker", price: "#50,000", rating: 4.7, image: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=300&h=300&fit=crop", badge: "Hot Deal" },
+    { id: 4, name: "Running Shoes", price: "#25,000", rating: 4.6, image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=300&h=300&fit=crop", badge: "Limited" }
   ];
 
   const features = [

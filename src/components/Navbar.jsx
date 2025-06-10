@@ -5,7 +5,7 @@ import { Search, ShoppingCart, User, Menu, X, Heart } from 'lucide-react';
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [cartCount, setCartCount] = useState(3);
+  const [cartCount, setCartCount] = useState();
 
   useEffect(() => {
     const handleScroll = () => {
