@@ -12,6 +12,7 @@ import Contact from './pages/Contact'
 import { CartProvider } from './pages/CartContext'
 import Products from './pages/Products'
 import CheckoutPage from './pages/CheckoutPage'
+import ChatWidget from './components/ChatWidget'
 function App() {
   
 
@@ -32,6 +33,7 @@ function App() {
           <Route path="/checkout" element={<CheckoutPage />} />
         </Routes>
         <Footer />
+        <ChatWidget/>
         </CartProvider>
       </BrowserRouter>
     </>
